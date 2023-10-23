@@ -10,12 +10,18 @@ function App() {
 let [count,setCount]=useState(10)
 
 const addValue=()=>{
-  if(count<=20){
-  setCount(count++)}
+  if(count<=19){
+    setCount(count+1)
+  // setCount((prevCounter)=> prevCounter+1)
+  // setCount((prevCounter)=> prevCounter+1)
+  // setCount((prevCounter)=> prevCounter+1)
+  // setCount((prevCounter)=> prevCounter+1)
+}
+
 }
 const removeValue=()=>{
-  if(count>=0){
- setCount(count--)
+  if(count>0){
+ setCount(count-1)
   }
 }
   return (
